@@ -1,0 +1,62 @@
+# paperhouse.toml — your Paperhouse configuration
+# Copy this file to your project directory as paperhouse.toml
+
+[paths]
+# Where your photo folders live
+photos = "./photos"
+
+# Where Paperhouse writes the built site
+site   = "./site"
+
+[site]
+# Your site's root URL — no trailing slash
+base_url = "https://photos.yoursite.com"
+
+# Displayed in the header on every page
+title = "Photos by Your Name"
+
+# Short tagline for SEO meta description (not displayed in header)
+subtitle = "Brooklyn, NY"
+
+# Description for the index page and social sharing
+description = "Photography by Your Name."
+
+# Your name — used in copyright and structured data
+author = "Your Name"
+
+# Contact email — shown in structured data (optional)
+email = "you@yoursite.com"
+
+# URL path to your stylesheet, relative to the site root.
+# The starter stylesheet has already been written there — customize it freely.
+css_url = "/assets/style.css"
+
+# Fallback image for social sharing (og:image) — relative to base_url
+default_og_image = "/images/og-default.jpg"
+
+[author]
+# Used in Schema.org structured data — all optional
+location_city    = "Brooklyn"
+location_region  = "NY"
+location_country = "US"
+# instagram = "https://www.instagram.com/yourhandle"
+# bluesky   = "https://bsky.app/profile/yourhandle"
+# twitter   = "https://twitter.com/yourhandle"
+
+# ── Navigation links ──────────────────────────────────────────────────────────
+# Add, remove, or reorder [[nav]] entries as you like.
+# external = true → opens in a new tab
+
+[[nav]]
+label    = "Home"
+href     = "https://www.yoursite.com"
+external = true
+
+[[nav]]
+label = "About"
+href  = "/about/"
+
+[[nav]]
+label    = "Instagram"
+href     = "https://www.instagram.com/yourhandle"
+external = true
