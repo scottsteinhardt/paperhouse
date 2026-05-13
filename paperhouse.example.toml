@@ -16,7 +16,7 @@ base_url = "https://photos.yoursite.com"
 title = "Photos by Your Name"
 
 # Short tagline for SEO meta description (not displayed in header)
-subtitle = "Brooklyn, NY"
+subtitle = "Your City, State"
 
 # Description for the index page and social sharing
 description = "Photography by Your Name."
@@ -36,9 +36,9 @@ default_og_image = "/images/og-default.jpg"
 
 [author]
 # Used in Schema.org structured data — all optional
-location_city    = "Brooklyn"
-location_region  = "NY"
-location_country = "US"
+# location_city    = "Your City"
+# location_region  = "Your State"
+# location_country = "US"
 # instagram = "https://www.instagram.com/yourhandle"
 # bluesky   = "https://bsky.app/profile/yourhandle"
 # twitter   = "https://twitter.com/yourhandle"
