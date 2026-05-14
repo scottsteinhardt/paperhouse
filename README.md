@@ -4,6 +4,10 @@ A simple, easy-to-deploy photo blog.
 
 Named after [the Can song](https://open.spotify.com/track/3vTZCQSFPCkiNN6tFFqFMi).
 
+**[See a live demo →](https://scottfromny.com/photos)**
+
+[![Demo screenshot](docs/demo.png)](https://scottfromny.com/photos)
+
 ---
 
 ## Why Paperhouse
