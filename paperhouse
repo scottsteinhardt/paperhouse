@@ -570,7 +570,8 @@ AUTHOR      = _site.get("author",           TITLE)
 EMAIL       = _site.get("email",            "")
 LOCALE      = _site.get("locale",           "en_US")
 CSS_URL     = _site.get("css_url",          "/assets/style.css")
-DEFAULT_OG  = BASE + _site.get("default_og_image", "/images/og-default.jpg")
+_og_raw    = _site.get("default_og_image", "/images/og-default.jpg")
+DEFAULT_OG = _og_raw if _og_raw.startswith("http") else BASE + _og_raw
 CREDIT_URL  = _site.get("credit_url",       "https://github.com/scottsteinhardt/paperhouse")
 
 LOC_CITY    = _author.get("location_city",    "")
